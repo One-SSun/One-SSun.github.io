@@ -1,0 +1,50 @@
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrapper">
+
+    <div class="weather">
+        <span></span>
+        <span></span>
+    </div>
+
+    
+    <div class="clock">
+    </div>
+
+    <div class="greeting">
+        <form class="login-form hidden">
+            <h2 class="login-sayHello">HELLO, WHAT'S YOUR NAME?</h2>
+            <input type="text" required maxlength="20" placeholder="Write your name and press Enter">
+        </form>
+        <h1 class="hidden"></h1>
+    </div>
+
+    <div class="toDoList">
+        <form class="toDoList-form">
+            <input type="text" placeholder="Write to do and press Enter">
+        </form>
+        <ul class="toDo-list">
+
+        </ul>
+    </div>
+
+    <div class="quote">
+        <span></span>
+        <span></span>
+    </div>
+</div>
+</body>
+<script src="js/background.js"></script>
+<script src="js/clock.js"></script>
+<script src="js/quote.js"></script>
+<script src="js/login.js"></script>
+<script src="js/todo.js"></script>
+<script src="js/weather.js"></script>
+</html>

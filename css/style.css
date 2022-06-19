@@ -1,0 +1,145 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+body{
+    background-size: cover;
+    background-position: center;
+    background-repeat : no-repeat;
+}
+
+/*wrapper*/
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:100vh;
+    width:100%;
+    color:white;
+    text-align: center;
+}
+/*clock*/
+.clock{
+    margin-top:20vh;
+    font-size:28px;
+    font-weight:400;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/*login*/
+.greeting{
+    margin-top:20px;
+}
+
+.greeting h1{
+    font-family: 'Joan', serif;
+    font-size:36px;
+    letter-spacing: 1.5;
+    margin-bottom:20px;
+}
+
+.login-sayHello{
+    font-family: 'Joan', serif; 
+    font-size:36px;
+    letter-spacing: 1.5;
+    margin-bottom:20px;
+}
+
+input:focus{outline:none;}
+button:focus{outline: none;}
+
+.login-form input{
+    border-top:none;
+    border-left:none;
+    border-right: none;
+    background-color:transparent;
+    border-color:rgba(255, 255, 255, 0.6);
+    border-bottom-width:1px;
+    width:280px;
+    height:40px;
+    color:white;
+    font-size:18px;
+}
+.login-form input::placeholder{
+    color:white;
+    text-align: center;
+}
+
+.toDoList-form input{
+    border-top:none;
+    border-left:none;
+    border-right: none;
+    background-color:transparent;
+    border-color:rgba(255, 255, 255, 0.6);
+    border-bottom-width:1px;
+    width:280px;
+    height:40px;
+    color:white;
+    font-size:18px;
+}
+.toDoList-form input::placeholder{
+    color:white;
+    text-align: center;
+}
+
+.toDoList button{
+    border:none;
+    background:none;
+    color:white;
+    cursor:pointer;
+}
+
+.toDo-list{
+    margin-top:15px;
+}
+
+.toDo-list li{
+    display: flex;
+    justify-content: space-between;
+    padding-top:7px;
+    padding-bottom:7px;
+}
+
+.toDo-list span{font-size:18px;}
+
+.hidden{display:none;}
+
+.quote{font-size:14px; position:absolute; bottom:5%;}
+
+.weather{position:absolute; top:3%;}
+
+
+@media (max-width: 575px){
+.greeting h1{
+    font-size:30px;
+}
+
+.toDoList-form input{
+    font-size:16px;
+}
+
+.toDo-list span{
+    font-size:20px;
+}
+
+.toDoList button{
+    font-size:20px;
+}
+
+.quote{
+    width:80%;
+}
+}
+
+@media (min-width:576px) and (max-width:767px){
+
+}
+
+@media (min-width:768px) and (max-width:991px){
+
+}
+
+@media(min-width:992px) and (max-width:1199px){
+
+}
+
